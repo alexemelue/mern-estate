@@ -34,7 +34,7 @@ export const signin =async(req,res,next)=>{
     } catch (error) {
         next(error);
     }
-    const hashedPassword = bcryptjs.hashSync(password,10)
+    
    
    
 }
