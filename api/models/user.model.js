@@ -15,6 +15,11 @@ const userSchema = new mongoose.Schema({
         type:String,
         required:true,
     },
+    avatar:{
+        type:String,
+        // default:"https://res.cloudinary.com/dcynp9gds/image/upload/v1707303020/samples/ecommerce/analog-classic.jpg"
+        default:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJIyiiNbz3VC9Afr-LqWpcw7loxjPnacfZSA&usqp=CAU"
+    },
 },{
     timestamps:true
 });
